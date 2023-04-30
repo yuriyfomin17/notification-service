@@ -9,3 +9,8 @@ resilience4j:
     instances:
       user-service-circuit-breaker:
         minimum-number-of-calls: 10
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
